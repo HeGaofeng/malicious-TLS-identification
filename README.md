@@ -1,11 +1,11 @@
 # Introduction
 
 Identify malicious TLS flows by VirusTotal.
-This tool can be used with [maliciousTrafficDownload]([https://github.com/HeGaofeng/maliciousTrafficDownload](https://github.com/HeGaofeng/maliciousTrafficDownload)) and [TLS-Information-Extraction]([https://github.com/HeGaofeng/TLS-Information-Extraction](https://github.com/HeGaofeng/TLS-Information-Extraction)) to construct malicious TLS traffic dataset.
+This tool can be used with [maliciousTrafficDownload](https://github.com/HeGaofeng/maliciousTrafficDownload) and [TLS-Information-Extraction](https://github.com/HeGaofeng/TLS-Information-Extraction) to construct malicious TLS traffic dataset.
 
 # How to use
 
-1. Use  [TLS-Information-Extraction]([https://github.com/HeGaofeng/TLS-Information-Extraction](https://github.com/HeGaofeng/TLS-Information-Extraction))  to extract all metainformation for TLS flows.
+1. Use  [TLS-Information-Extraction](https://github.com/HeGaofeng/TLS-Information-Extraction)  to extract all metainformation for TLS flows.
 2. Add your VirusTotal API key in the code: 'x-apikey: your-key'
 3. In Linux shell, run ./malicious-TLS-identification.sh path-of-ssl_log-files
 
