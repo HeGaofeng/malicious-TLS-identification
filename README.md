@@ -15,4 +15,4 @@ The code search the domain name or IP address in VirusTotal. If more than three 
 Blacklists and whitelists are also used to reduce the searching.
 
 # Note
-One can request an acadamic API key from VirusTotal, which support 20,000 accessing every day. It is free for six month.
+One can request for an acadamic API key from VirusTotal, which support 20,000 accessing every day. It is free for six month.
